@@ -1,1 +1,1 @@
-# Sidcup-Family-Golf-clone-by-Shekhar
+# Sidcup-family-golf

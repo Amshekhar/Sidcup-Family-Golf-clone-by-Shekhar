@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="range.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Driving Range</title>
+  </head>
+  <body>
+    <div class="nav_container">
+      <nav id="nav">
+        <div id="nav_left">
+          <img
+            src="https://bookings.sidcupfamilygolf.com/assets/images/Primary-Green-and-White-Logo.png"
+            alt=""
+          />
+        </div>
+        <div id="nav_right">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button id="nav_btn">BOOK NOW</button>
+        </div>
+      </nav>
+    </div>
+    <div class="form_container">
+      <h1>Driving Range</h1>
+      <p id="green">Driving Range Session 55 Mins [Unlimited Balls]</p>
+      <p id="white">Please select the date and time you would like to book.</p>
+
+      <form id="form" action="">
+        <div id="member">
+          <label for="input"><i class="fa-solid fa-person"></i></label>
+          <select name="select" id="select" class="input">
+            <option value="No. of bays">No. of Bays</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+        <div id="date">
+            <label for="calender"><i class="fa-solid fa-calendar-days"></i></label>
+            <input class="input" id="calender" type="date"/>
+        </div>
+
+        <div id="slot">
+          <label for=""><i class="fa-solid fa-clock"></i></label>
+          <select name="select" id="time" class="input">
+            <option value="No. of bays">Select a time</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+        <button id="btn">CONFIRM</button>
+      </form>
+
+      <div class="slots">
+        <p id="slots_heading">Our bookable bays are highlighted in <span>green</span></p>
+        <p id="slots_sub_heading">Please note that bay 8 is left-handed</p>
+        <div class="slot-details">
+            <div class="left_details">
+                <div class="left_top">
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box green border">8</div>
+                    <div class="box green border">9</div>
+                    <div class="box green border">10</div>
+                    <div class="box green border">11</div>
+                    <div class="box green border">12</div>
+                    <div class="box green border">13</div>
+                    <div class="box border">14</div>
+                </div>
+                <div class="left_bottom ">
+                    <div class="box green border">27</div>
+                    <div class="box green border">29</div>
+                    <div class="box green border">31</div>
+                    <div class="box green">33</div>
+                    <div class="box green">35</div>
+                </div>
+            </div>
+            <div class="right_details">
+                <div class="right_top">
+                    
+                    <div class="box">15</div>
+                    <div class="box">16</div>
+                    <div class="box">17</div>
+                    <div class="box">18</div>
+                    <div class="box">19</div>
+                    <div class="box">20</div>
+                    <div class="box">21</div>
+                    <div class="box">22</div>
+                    <div class="box">23</div>
+                    <div class="box">24</div>
+                </div>
+                <div class="right_bottom">
+                    <div class="box green border">36</div>
+                    <div class="box">37</div>
+                    <div class="box">38</div>
+                    <div class="box">39</div>
+                    <div class="box">40</div>
+                    <div class="box">41</div>
+                    <div class="box">42</div>
+                    <div class="box">43</div>
+                    <div class="box">44</div>
+                    <div class="box">45</div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="indication">
+            <div class="green_box">
+                <div class="ibox"></div>
+                <p>Bookable Bay</p>
+            </div>
+            <div class="gray_box">
+                <div class="ibox"></div>
+                <p>Walk In Only</p>
+            </div>
+            <div class="border_box">
+                <div class="ibox"></div>
+                <p>Power-tee Bay</p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
